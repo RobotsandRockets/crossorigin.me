@@ -31,7 +31,7 @@ var http = require('http'),
 			'accept-encoding': 'gzip'
 		}
 	},
-	sizeLimit = 8e6; // 8MB - change this to false if you want unlimited file size
+	sizeLimit = 8e6; // 8MB (updated) - change this to false if you want unlimited file size
 
 	server = http.createServer(function (req, res) {
 		var d = domain.create();
